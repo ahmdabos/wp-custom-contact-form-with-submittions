@@ -1,0 +1,13 @@
+{
+  "require": {
+    "phpoffice/phpspreadsheet": "^1.22"
+  },
+  "config": {
+    "optimize-autoloader": true
+  },
+  "autoload": {
+    "psr-4": {
+      "CustomContactForm\\": "includes/"
+    }
+  }
+}
